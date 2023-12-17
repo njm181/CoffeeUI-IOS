@@ -7,18 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2BDF4B2B2A439800CF4C40 /* DatabaseContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2BDF4A2B2A439800CF4C40 /* DatabaseContainer.swift */; };
+		9E3BCECE2B1FB53100F22496 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BCECD2B1FB53100F22496 /* Color.swift */; };
+		9E509AE02B20EFC400291C0E /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E509ADF2B20EFC400291C0E /* IconButton.swift */; };
 		9EAA1ECB2B14E302009FF7D8 /* CoffeeUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA1ECA2B14E302009FF7D8 /* CoffeeUIApp.swift */; };
 		9EAA1ECD2B14E302009FF7D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA1ECC2B14E302009FF7D8 /* ContentView.swift */; };
 		9EAA1ECF2B14E303009FF7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA1ECE2B14E303009FF7D8 /* Assets.xcassets */; };
 		9EAA1ED22B14E303009FF7D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA1ED12B14E303009FF7D8 /* Preview Assets.xcassets */; };
+		9EAA1EDC2B150E48009FF7D8 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA1EDB2B150E48009FF7D8 /* CartButton.swift */; };
+		9EAA1EDF2B151421009FF7D8 /* MenuCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA1EDE2B151421009FF7D8 /* MenuCard.swift */; };
+		9EAA1EE22B153E1E009FF7D8 /* SegmentMenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA1EE12B153E1E009FF7D8 /* SegmentMenuPicker.swift */; };
+		9EDEB5D82B18C37600A6C460 /* CoffeeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5D72B18C37600A6C460 /* CoffeeCard.swift */; };
+		9EDEB5DF2B18C75400A6C460 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EDEB5DB2B18C75400A6C460 /* Roboto-Light.ttf */; };
+		9EDEB5E02B18C75400A6C460 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EDEB5DC2B18C75400A6C460 /* Roboto-Regular.ttf */; };
+		9EDEB5E12B18C75400A6C460 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EDEB5DD2B18C75400A6C460 /* Roboto-Bold.ttf */; };
+		9EDEB5E22B18C75400A6C460 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EDEB5DE2B18C75400A6C460 /* Roboto-Medium.ttf */; };
+		9EDEB5E52B18C8CB00A6C460 /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5E42B18C8CB00A6C460 /* CustomFonts.swift */; };
+		9EDEB5E72B18C92E00A6C460 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5E62B18C92E00A6C460 /* Font+Extension.swift */; };
+		9EDEB5EA2B18D31700A6C460 /* OrderHistoryItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5E92B18D31700A6C460 /* OrderHistoryItemCard.swift */; };
+		9EDEB5ED2B18E78900A6C460 /* CurveBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5EC2B18E78800A6C460 /* CurveBackground.swift */; };
+		9EDEB5EF2B18FE5000A6C460 /* OrderHistoryBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5EE2B18FE5000A6C460 /* OrderHistoryBottomSheet.swift */; };
+		9EDEB5F12B19016600A6C460 /* PurchaseBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5F02B19016600A6C460 /* PurchaseBottomSheet.swift */; };
+		9EDEB5F62B19049A00A6C460 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5F52B19049A00A6C460 /* MainMenu.swift */; };
+		9EDEB5F82B1905C400A6C460 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5F72B1905C400A6C460 /* Coffee.swift */; };
+		9EDEB5FA2B19068500A6C460 /* Donut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5F92B19068500A6C460 /* Donut.swift */; };
+		9EDEB5FC2B1906A800A6C460 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5FB2B1906A800A6C460 /* Drink.swift */; };
+		9EDEB5FE2B1906C000A6C460 /* PurchaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5FD2B1906C000A6C460 /* PurchaseItem.swift */; };
+		9EDEB6002B1906E200A6C460 /* OrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB5FF2B1906E200A6C460 /* OrderHistory.swift */; };
+		9EDEB60F2B190EF700A6C460 /* ProviderMenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB60E2B190EF700A6C460 /* ProviderMenuData.swift */; };
+		9EDEB6142B19140200A6C460 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB6132B19140200A6C460 /* MenuViewModel.swift */; };
+		9EDEB6172B19144A00A6C460 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEB6162B19144A00A6C460 /* DashboardView.swift */; };
+		9EF789262B168AFA004E1BBC /* CoffeeCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF789252B168AFA004E1BBC /* CoffeeCarousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E2BDF4A2B2A439800CF4C40 /* DatabaseContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseContainer.swift; sourceTree = "<group>"; };
+		9E3BCECD2B1FB53100F22496 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9E509ADF2B20EFC400291C0E /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		9EAA1EC72B14E302009FF7D8 /* CoffeeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAA1ECA2B14E302009FF7D8 /* CoffeeUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeUIApp.swift; sourceTree = "<group>"; };
 		9EAA1ECC2B14E302009FF7D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9EAA1ECE2B14E303009FF7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EAA1ED12B14E303009FF7D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EAA1EDB2B150E48009FF7D8 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		9EAA1EDE2B151421009FF7D8 /* MenuCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCard.swift; sourceTree = "<group>"; };
+		9EAA1EE12B153E1E009FF7D8 /* SegmentMenuPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentMenuPicker.swift; sourceTree = "<group>"; };
+		9EDEB5D72B18C37600A6C460 /* CoffeeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCard.swift; sourceTree = "<group>"; };
+		9EDEB5DB2B18C75400A6C460 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		9EDEB5DC2B18C75400A6C460 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		9EDEB5DD2B18C75400A6C460 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		9EDEB5DE2B18C75400A6C460 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		9EDEB5E32B18C7BD00A6C460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9EDEB5E42B18C8CB00A6C460 /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		9EDEB5E62B18C92E00A6C460 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		9EDEB5E92B18D31700A6C460 /* OrderHistoryItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryItemCard.swift; sourceTree = "<group>"; };
+		9EDEB5EC2B18E78800A6C460 /* CurveBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveBackground.swift; sourceTree = "<group>"; };
+		9EDEB5EE2B18FE5000A6C460 /* OrderHistoryBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryBottomSheet.swift; sourceTree = "<group>"; };
+		9EDEB5F02B19016600A6C460 /* PurchaseBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseBottomSheet.swift; sourceTree = "<group>"; };
+		9EDEB5F52B19049A00A6C460 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		9EDEB5F72B1905C400A6C460 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		9EDEB5F92B19068500A6C460 /* Donut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donut.swift; sourceTree = "<group>"; };
+		9EDEB5FB2B1906A800A6C460 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		9EDEB5FD2B1906C000A6C460 /* PurchaseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseItem.swift; sourceTree = "<group>"; };
+		9EDEB5FF2B1906E200A6C460 /* OrderHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; };
+		9EDEB60E2B190EF700A6C460 /* ProviderMenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderMenuData.swift; sourceTree = "<group>"; };
+		9EDEB6132B19140200A6C460 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		9EDEB6162B19144A00A6C460 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		9EF789252B168AFA004E1BBC /* CoffeeCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCarousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E3BCECC2B1FB52100F22496 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9E3BCECD2B1FB53100F22496 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9E7045372B29221A0064B781 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				9E2BDF4A2B2A439800CF4C40 /* DatabaseContainer.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		9EAA1EBE2B14E302009FF7D8 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +122,16 @@
 		9EAA1EC92B14E302009FF7D8 /* CoffeeUI */ = {
 			isa = PBXGroup;
 			children = (
+				9EDEB5F22B19044100A6C460 /* data */,
+				9EDEB5F32B19044800A6C460 /* domain */,
+				9EAA1ED82B150DF5009FF7D8 /* presentation */,
 				9EAA1ECA2B14E302009FF7D8 /* CoffeeUIApp.swift */,
 				9EAA1ECC2B14E302009FF7D8 /* ContentView.swift */,
+				9EDEB5E42B18C8CB00A6C460 /* CustomFonts.swift */,
+				9EDEB5E62B18C92E00A6C460 /* Font+Extension.swift */,
 				9EAA1ECE2B14E303009FF7D8 /* Assets.xcassets */,
+				9EDEB5E32B18C7BD00A6C460 /* Info.plist */,
+				9EDEB5E82B18CBD700A6C460 /* fonts */,
 				9EAA1ED02B14E303009FF7D8 /* Preview Content */,
 			);
 			path = CoffeeUI;
@@ -65,6 +143,131 @@
 				9EAA1ED12B14E303009FF7D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EAA1ED82B150DF5009FF7D8 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9EDEB6152B19142600A6C460 /* view */,
+				9EDEB6102B1913E100A6C460 /* viewmodel */,
+				9EAA1ED92B150E01009FF7D8 /* components */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		9EAA1ED92B150E01009FF7D8 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				9E3BCECC2B1FB52100F22496 /* Extensions */,
+				9EDEB5EB2B18E77600A6C460 /* Utils */,
+				9EAA1EE32B15463B009FF7D8 /* Carousel */,
+				9EAA1EE02B153DED009FF7D8 /* Pickers */,
+				9EAA1EDD2B1513E8009FF7D8 /* Cards */,
+				9EAA1EDA2B150E1B009FF7D8 /* buttons */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		9EAA1EDA2B150E1B009FF7D8 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				9EAA1EDB2B150E48009FF7D8 /* CartButton.swift */,
+				9E509ADF2B20EFC400291C0E /* IconButton.swift */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		9EAA1EDD2B1513E8009FF7D8 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				9EAA1EDE2B151421009FF7D8 /* MenuCard.swift */,
+				9EDEB5D72B18C37600A6C460 /* CoffeeCard.swift */,
+				9EDEB5E92B18D31700A6C460 /* OrderHistoryItemCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		9EAA1EE02B153DED009FF7D8 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				9EAA1EE12B153E1E009FF7D8 /* SegmentMenuPicker.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		9EAA1EE32B15463B009FF7D8 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				9EF789252B168AFA004E1BBC /* CoffeeCarousel.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		9EDEB5E82B18CBD700A6C460 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9EDEB5DD2B18C75400A6C460 /* Roboto-Bold.ttf */,
+				9EDEB5DB2B18C75400A6C460 /* Roboto-Light.ttf */,
+				9EDEB5DE2B18C75400A6C460 /* Roboto-Medium.ttf */,
+				9EDEB5DC2B18C75400A6C460 /* Roboto-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		9EDEB5EB2B18E77600A6C460 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9EDEB5EC2B18E78800A6C460 /* CurveBackground.swift */,
+				9EDEB5EE2B18FE5000A6C460 /* OrderHistoryBottomSheet.swift */,
+				9EDEB5F02B19016600A6C460 /* PurchaseBottomSheet.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9EDEB5F22B19044100A6C460 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9E7045372B29221A0064B781 /* Database */,
+				9EDEB60E2B190EF700A6C460 /* ProviderMenuData.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9EDEB5F32B19044800A6C460 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				9EDEB5F42B19048100A6C460 /* model */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		9EDEB5F42B19048100A6C460 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9EDEB5F52B19049A00A6C460 /* MainMenu.swift */,
+				9EDEB5F72B1905C400A6C460 /* Coffee.swift */,
+				9EDEB5F92B19068500A6C460 /* Donut.swift */,
+				9EDEB5FB2B1906A800A6C460 /* Drink.swift */,
+				9EDEB5FD2B1906C000A6C460 /* PurchaseItem.swift */,
+				9EDEB5FF2B1906E200A6C460 /* OrderHistory.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9EDEB6102B1913E100A6C460 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				9EDEB6132B19140200A6C460 /* MenuViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		9EDEB6152B19142600A6C460 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9EDEB6162B19144A00A6C460 /* DashboardView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +330,10 @@
 			files = (
 				9EAA1ED22B14E303009FF7D8 /* Preview Assets.xcassets in Resources */,
 				9EAA1ECF2B14E303009FF7D8 /* Assets.xcassets in Resources */,
+				9EDEB5E22B18C75400A6C460 /* Roboto-Medium.ttf in Resources */,
+				9EDEB5E12B18C75400A6C460 /* Roboto-Bold.ttf in Resources */,
+				9EDEB5E02B18C75400A6C460 /* Roboto-Regular.ttf in Resources */,
+				9EDEB5DF2B18C75400A6C460 /* Roboto-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +344,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAA1EDF2B151421009FF7D8 /* MenuCard.swift in Sources */,
+				9EDEB6142B19140200A6C460 /* MenuViewModel.swift in Sources */,
+				9EDEB5FC2B1906A800A6C460 /* Drink.swift in Sources */,
+				9E509AE02B20EFC400291C0E /* IconButton.swift in Sources */,
 				9EAA1ECD2B14E302009FF7D8 /* ContentView.swift in Sources */,
+				9E2BDF4B2B2A439800CF4C40 /* DatabaseContainer.swift in Sources */,
+				9EDEB5E72B18C92E00A6C460 /* Font+Extension.swift in Sources */,
+				9EDEB5F62B19049A00A6C460 /* MainMenu.swift in Sources */,
 				9EAA1ECB2B14E302009FF7D8 /* CoffeeUIApp.swift in Sources */,
+				9EDEB5FE2B1906C000A6C460 /* PurchaseItem.swift in Sources */,
+				9EDEB5ED2B18E78900A6C460 /* CurveBackground.swift in Sources */,
+				9EDEB5EF2B18FE5000A6C460 /* OrderHistoryBottomSheet.swift in Sources */,
+				9EDEB5D82B18C37600A6C460 /* CoffeeCard.swift in Sources */,
+				9EAA1EE22B153E1E009FF7D8 /* SegmentMenuPicker.swift in Sources */,
+				9EDEB5EA2B18D31700A6C460 /* OrderHistoryItemCard.swift in Sources */,
+				9EDEB5FA2B19068500A6C460 /* Donut.swift in Sources */,
+				9EDEB5F82B1905C400A6C460 /* Coffee.swift in Sources */,
+				9EDEB5E52B18C8CB00A6C460 /* CustomFonts.swift in Sources */,
+				9EDEB5F12B19016600A6C460 /* PurchaseBottomSheet.swift in Sources */,
+				9E3BCECE2B1FB53100F22496 /* Color.swift in Sources */,
+				9EDEB6172B19144A00A6C460 /* DashboardView.swift in Sources */,
+				9EAA1EDC2B150E48009FF7D8 /* CartButton.swift in Sources */,
+				9EF789262B168AFA004E1BBC /* CoffeeCarousel.swift in Sources */,
+				9EDEB6002B1906E200A6C460 /* OrderHistory.swift in Sources */,
+				9EDEB60F2B190EF700A6C460 /* ProviderMenuData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +505,11 @@
 				DEVELOPMENT_TEAM = R2D234X96B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +534,11 @@
 				DEVELOPMENT_TEAM = R2D234X96B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
